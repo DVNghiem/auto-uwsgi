@@ -17,6 +17,13 @@
 >>> deploy.start()
 ```
 
+### Change setting
+
+```python
+STATIC_URL = 'static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+```
+
 ## Example
 
 ```python
@@ -27,7 +34,5 @@
     '/home/nghiem/auto-uwsgi/tests/venv',
     '192.168.0.105'
 )
-
-
 >>> deploy.start()
 ```
