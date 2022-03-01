@@ -27,5 +27,7 @@
     '/home/nghiem/auto-uwsgi/tests/venv',
     '192.168.0.105'
 )
+
+
 >>> deploy.start()
 ```
