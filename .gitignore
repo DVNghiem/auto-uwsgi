@@ -1,2 +1,4 @@
 tests/venv
 tests/projecttest/static
+dist
+auto_uwsgi.egg-info
