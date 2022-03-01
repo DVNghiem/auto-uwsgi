@@ -14,7 +14,7 @@ with open(path.join(HERE, 'README.md'), 'r', encoding='utf-8') as f:
 # This call to setup() does all the work
 setup(
     name="auto-uwsgi",
-    version="1.0.9",
+    version="1.0.0",
     description="""Auto deploy django project on linux using nginx and uwsgi""",
     long_description=long_description,
     long_description_content_type="text/markdown",
