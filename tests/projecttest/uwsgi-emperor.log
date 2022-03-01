@@ -1,0 +1,43 @@
+*** Starting uWSGI 2.0.20 (64bit) on [Tue Mar  1 12:37:11 2022] ***
+compiled with version: 9.3.0 on 01 March 2022 03:20:09
+os: Linux-5.13.0-30-generic #33~20.04.1-Ubuntu SMP Mon Feb 7 14:25:10 UTC 2022
+nodename: nghiem
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/nghiem/auto-uwsgi/tests/projecttest/vas
+detected binary path: /home/nghiem/auto-uwsgi/tests/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/nghiem/auto-uwsgi/tests/projecttest
+your processes number limit is 31167
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/nghiem/auto-uwsgi/tests/projecttest/projecttest.sock fd 3
+Python version: 3.8.10 (default, Nov 26 2021, 20:14:08)  [GCC 9.3.0]
+PEP 405 virtualenv detected: /home/nghiem/auto-uwsgi/tests/venv
+Set PythonHome to /home/nghiem/auto-uwsgi/tests/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x56072ab928b0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x56072ab928b0 pid: 3431 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3431)
+spawned uWSGI worker 1 (pid: 3439, cores: 1)
+spawned uWSGI worker 2 (pid: 3440, cores: 1)
+spawned uWSGI worker 3 (pid: 3441, cores: 1)
+spawned uWSGI worker 4 (pid: 3442, cores: 1)
+spawned uWSGI worker 5 (pid: 3443, cores: 1)
+spawned uWSGI worker 6 (pid: 3444, cores: 1)
+spawned uWSGI worker 7 (pid: 3445, cores: 1)
+spawned uWSGI worker 8 (pid: 3446, cores: 1)
+spawned uWSGI worker 9 (pid: 3447, cores: 1)
+spawned uWSGI worker 10 (pid: 3448, cores: 1)
+[pid: 3443|app: 0|req: 1/1] 192.168.0.105 () {42 vars in 760 bytes} [Tue Mar  1 05:37:14 2022] GET / => generated 10697 bytes in 22 msecs (HTTP/1.1 200) 6 headers in 194 bytes (2 switches on core 0)
+announcing my loyalty to the Emperor...
+[pid: 3447|app: 0|req: 1/2] 192.168.0.105 () {42 vars in 760 bytes} [Tue Mar  1 05:37:15 2022] GET / => generated 10697 bytes in 20 msecs (HTTP/1.1 200) 6 headers in 194 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
