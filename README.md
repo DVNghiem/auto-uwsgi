@@ -1,5 +1,5 @@
 # Auto deploy Django project
-
+[![PyPI](https://img.shields.io/pypi/v/auto-uwsgi.svg)](https://pypi.org/project/auto-uwsgi)
 ## Install:
 
     pip install auto-uwsgi
